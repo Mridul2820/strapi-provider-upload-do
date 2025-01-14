@@ -21,14 +21,6 @@ This provider will upload to the space using the AWS S3 API.
 npm i strapi-provider-upload-do-no-hash
 ```
 
-```bash
-yarn add strapi-provider-upload-do-no-hash
-```
-
-```bash
-pnpm add strapi-provider-upload-do-no-hash
-```
-
 2. Create or update config in `./config/plugins.js` with content
 
 ```js
