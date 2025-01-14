@@ -1,7 +1,7 @@
 {
-  "name": "strapi-provider-upload-do",
-  "version": "3.6.9",
-  "description": "Digital ocean spaces provider for Strapi upload plugin",
+  "name": "strapi-provider-upload-digital-ocean",
+  "version": "1.0.0",
+  "description": "Digital ocean spaces provider for Strapi upload plugin with hashing removed and cutomizable filename",
   "homepage": "http://strapi.io",
   "keywords": [
     "upload",
@@ -22,9 +22,9 @@
     "isProvider": true
   },
   "author": {
-    "email": "stanley@hsjm.io",
-    "name": "Stanley Horwood",
-    "url": "https://hsjm.io"
+    "email": "mridul.p@tunica.tech",
+    "name": "Mridul",
+    "url": "https://www.mridul.tech"
   },
   "repository": {
     "type": "git",
