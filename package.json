@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-do-no-hash",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Digital ocean spaces provider for Strapi upload plugin with hashing removed and cutomizable filename",
   "homepage": "http://strapi.io",
   "keywords": [
@@ -22,7 +22,7 @@
     "isProvider": true
   },
   "author": {
-    "email": "mridul.p@tunica.tech",
+    "email": "contact@mridul.tech",
     "name": "Mridul",
     "url": "https://www.mridul.tech"
   },

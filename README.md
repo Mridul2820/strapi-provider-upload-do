@@ -1,4 +1,4 @@
-# Strapi Upload Provider for Digital Ocean Spaces
+# Strapi Upload Provider for Digital Ocean Spaces with hashing removed and cutomizable filename
 
 - This provider is a fork of [AdamZikmund's](https://github.com/AdamZikmund) [strapi upload provider](https://github.com/AdamZikmund/strapi-provider-upload-digitalocean) for Digital Ocean spaces.
 
@@ -18,15 +18,15 @@ This provider will upload to the space using the AWS S3 API.
 1. Install this package
 
 ```bash
-npm i strapi-provider-upload-do
+npm i strapi-provider-upload-do-no-hash
 ```
 
 ```bash
-yarn add strapi-provider-upload-do
+yarn add strapi-provider-upload-do-no-hash
 ```
 
 ```bash
-pnpm add strapi-provider-upload-do
+pnpm add strapi-provider-upload-do-no-hash
 ```
 
 2. Create or update config in `./config/plugins.js` with content
@@ -36,7 +36,7 @@ module.exports = ({env}) => ({
   // ...
   upload: {
     config: {
-      provider: "strapi-provider-upload-do", 
+      provider: "strapi-provider-upload-do-no-hash", 
       providerOptions: {
         key: env('DO_SPACE_ACCESS_KEY'),
         secret: env('DO_SPACE_SECRET_KEY'),
